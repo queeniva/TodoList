@@ -34,7 +34,7 @@ h1 {
   border-bottom: 0;
 }
 
-input:checked+p {
+.input:checked+p {
   text-decoration: line-through;
   text-decoration-color: #A683E3;
 }
@@ -68,7 +68,7 @@ button {
   border-width: 0;
 }
 
-input[type="text"] {
+.input {
   text-align: center;
   height: 60px;
   top: 10px;
@@ -79,7 +79,8 @@ input[type="text"] {
   width: 313px;
 }
 
-input[type="text"]:focus {
+
+.input:focus {
   outline: none;
   box-shadow: inset 0 -3px 0 0 #A683E3;
 }
